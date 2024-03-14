@@ -1,0 +1,7 @@
+{
+  "name": "ion-t-paluga",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
