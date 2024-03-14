@@ -35,7 +35,7 @@ const Tab1: React.FC = () => {
         </IonCol>
       </IonRow>
 
-      <IonCardContent> Everything will be okay at the end. If it is not okay, it is not yet the end.😊 </IonCardContent>
+      <IonCardContent>Everything will be okay at the end. If it is not okay, it is not yet the end.😊</IonCardContent>
 
 
       <IonButton id="present-alert" expand="block" color="primary">Quick Facts</IonButton>
