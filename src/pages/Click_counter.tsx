@@ -1,7 +1,7 @@
 // Tab2.tsx
 
 import React, { useState } from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonLabel } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonLabel, IonButtons, IonBackButton } from '@ionic/react';
 import './Click_counter.css';
 
 const Tab2: React.FC = () => {
@@ -22,6 +22,9 @@ const Tab2: React.FC = () => {
           <IonTitle>Click Counter</IonTitle>
         </IonToolbar>
       </IonHeader>
+      <IonButtons slot="start">
+        <IonBackButton defaultHref="/" />
+      </IonButtons>
       <IonContent className="ion-padding">
         <div className="container">
           <div className="counter-container">
