@@ -77,6 +77,16 @@ const cardData = [
       tag1: logoIonic,
       tag2: logoReact
     }
+  },
+  {
+    title: 'Notes',
+    icon: chatbubble,
+    subtitle: 'Applet #4',
+    link: '/notes',
+    tags: {
+      tag1: logoIonic,
+      tag2: logoReact
+    }
   }
   
 ];
