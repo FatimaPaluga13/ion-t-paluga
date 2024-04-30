@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonLabel, IonButtons, IonBackButton } from '@ionic/react';
-import './Click_counter.css';
+import './ClickCounter.css';
 
 const Tab2: React.FC = () => {
   const [count, setCount] = useState(0);

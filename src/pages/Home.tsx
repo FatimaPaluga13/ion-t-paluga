@@ -30,7 +30,7 @@ import {
 import './Home.css';
 
 //Ionic Icons
-import { speedometerOutline, calculator, pencil, chatbubble, logoIonic, logoReact, logoFirebase, readerOutline} from 'ionicons/icons';
+import { speedometerOutline,calculator,pencil, chatbubble, logoIonic, logoReact, logoFirebase, readerOutline} from 'ionicons/icons';
 
 //Additional Routes
 // import Click_counter from './Click_counter';
@@ -63,6 +63,16 @@ const cardData = [
     icon: pencil,
     subtitle: 'Applet #3',
     link: '/todolist',
+    tags: {
+      tag1: logoIonic,
+      tag2: logoReact
+    }
+  },
+  {
+    title: 'Quote Generator',
+    icon: chatbubble,
+    subtitle: 'Applet #4',
+    link: '/quotesgenerator',
     tags: {
       tag1: logoIonic,
       tag2: logoReact
